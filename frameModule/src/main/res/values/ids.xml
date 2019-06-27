@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="frame_lceRefreshView" type="id" />
+    <item name="frame_lceRecyclerView" type="id" />
+
+    <item name="frame_webview_load_success" type="id" />
+
+    <item name="frame_toolbar_image_background" type="id" />
+    <item name="frame_toolbar_left_view" type="id" />
+    <item name="frame_toolbar_left_2_view" type="id" />
+    <item name="frame_toolbar_right_view" type="id" />
+    <item name="frame_toolbar_right_2_view" type="id" />
+    <item name="frame_toolbar_bottom_line" type="id" />
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_transparent_click_bg"
+    android:padding="@dimen/base_toolbar_image_button_padding"
+    android:scaleType="fitCenter" />

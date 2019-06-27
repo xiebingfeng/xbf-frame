@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.krt.frame.frame.dialog.view.ProgressWheel
+        android:id="@+id/lce_loading_view"
+        android:layout_width="@dimen/base_40"
+        android:layout_height="@dimen/base_40"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:matProg_barColor="@color/base_loading_view_color1"
+        app:matProg_progressIndeterminate="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_error_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="@dimen/base_20"
+        android:paddingBottom="@dimen/base_20"
+        android:text="@string/frame_network_error"
+        android:textColor="#9d9d9d"
+        android:textSize="@dimen/font_size_16"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guide_line" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_no_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="@dimen/base_20"
+        android:paddingBottom="@dimen/base_20"
+        android:text="@string/frame_network_is_not_usable"
+        android:textColor="#9d9d9d"
+        android:textSize="@dimen/font_size_16"
+        android:visibility="gone" />
+
+
+</FrameLayout>

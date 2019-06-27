@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.krt.frame.frame.dialog.view.ProgressWheel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/base_lce_loading_view_width"
+    android:layout_height="@dimen/base_lce_loading_view_width"
+    android:layout_gravity="center"
+    android:visibility="gone"
+    app:matProg_barColor="@color/base_loading_view_color1"
+    app:matProg_progressIndeterminate="true">
+
+</com.krt.frame.frame.dialog.view.ProgressWheel>

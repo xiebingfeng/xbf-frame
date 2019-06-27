@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_lce_color_warn">#999999</color>
+
+    <color name="base_lce_background_color">@color/base_white</color>
+
+    <color name="base_lce_button_stroke_color">#999999</color>
+
+    <!--dimen-->
+
+    <dimen name="base_lce_warn_image_view_width">@dimen/base_100</dimen>    <!--LCE View的宽度-->
+
+    <dimen name="base_lce_warn_tv_image_space">@dimen/base_15</dimen>
+
+    <dimen name="base_lce_tv_font_size">@dimen/font_size_14</dimen>
+
+    <dimen name="base_lce_button_font_size">@dimen/font_size_16</dimen>
+
+    <dimen name="base_lce_loading_view_width">@dimen/base_80</dimen>
+
+    <dimen name="base_lce_button_corner">@dimen/base_8</dimen>
+
+</resources>

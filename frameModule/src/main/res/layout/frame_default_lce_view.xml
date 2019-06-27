@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_transparent"
+    android:clickable="false"
+    android:focusableInTouchMode="true"
+    tools:ignore="MissingDefaultResource">
+
+    <ViewStub
+        android:id="@+id/lce_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/frame_default_loading_view" />
+
+    <ViewStub
+        android:id="@+id/lce_error_view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/frame_default_error_view" />
+
+    <ViewStub
+        android:id="@+id/lce_no_netwrok_view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/frame_default_no_network_view"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_lce_background_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_error"
+        android:layout_width="@dimen/base_lce_warn_image_view_width"
+        android:layout_height="@dimen/base_lce_warn_image_view_width"
+        android:src="@drawable/frame_default_pic_net_is_not_enable" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_error_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_lce_warn_tv_image_space"
+        android:gravity="center"
+        android:text="@string/frame_network_error"
+        android:textColor="@color/base_lce_color_warn"
+        android:textSize="@dimen/base_lce_tv_font_size" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_navigation_text_color_selected">#333333</color>
+
+    <color name="base_navigation_text_color_unselected">#999999</color>
+
+    <!--dimen-->
+
+    <dimen name="base_navigation_container_padding_top">@dimen/base_0</dimen>
+
+    <dimen name="base_navigation_container_padding_bottom">@dimen/base_4</dimen>
+
+    <dimen name="base_navigation_text_size">@dimen/font_size_11</dimen>
+
+    <dimen name="base_navigation_iv_width">@dimen/base_35</dimen>
+
+    <dimen name="base_navigation_iv_height">@dimen/base_35</dimen>
+
+    <dimen name="base_navigation_iv_padding_left">@dimen/base_5</dimen>
+    <dimen name="base_navigation_iv_padding_top">@dimen/base_5</dimen>
+    <dimen name="base_navigation_iv_padding_right">@dimen/base_5</dimen>
+    <dimen name="base_navigation_iv_padding_bottom">@dimen/base_0</dimen>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/core_toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/base_toolbar_height"
+    app:contentInsetStart="0dp"
+    tools:ignore="ResourceName">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tool_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/base_toolbar_background">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_tool_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/base_transparent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="@dimen/base_toolbar_title_view_max_width"
+            android:maxLines="1"
+            android:textColor="@color/base_toolbar_title_font_color"
+            android:textSize="@dimen/base_toolbar_title_font_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_lce_background_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_error"
+        android:layout_width="@dimen/base_lce_warn_image_view_width"
+        android:layout_height="@dimen/base_lce_warn_image_view_width"
+        android:src="@drawable/frame_default_pic_net_is_not_enable" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_lce_warn_tv_image_space"
+        android:gravity="center"
+        android:text="@string/frame_network_is_not_usable"
+        android:textColor="@color/base_lce_color_warn"
+        android:textSize="@dimen/base_lce_tv_font_size" />
+
+    <TextView
+        android:id="@+id/no_net_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_lce_warn_tv_image_space"
+        android:background="@drawable/frame_lce_error_button_bg"
+        android:paddingStart="@dimen/base_25"
+        android:paddingTop="@dimen/base_5"
+        android:paddingEnd="@dimen/base_25"
+        android:paddingBottom="@dimen/base_5"
+        android:text="@string/frame_base_reload"
+        android:textSize="@dimen/base_lce_button_font_size" />
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://127.0.0.1:8081/repository/maven-releases/") {
+                authentication(userName: "admin", password: "admin123")
+            }
+
+//            snapshotRepository(url: uri('http://maven.hipac.cn/nexus/content/repositories/thirdparty/')) {
+//                authentication(userName: "$mavenUser", password: "$mavenPassword")
+//            }
+
+            pom.groupId = 'cn.krt.lib' // 组名
+            pom.artifactId = 'frame-module' // 插件名
+            pom.version = "1.0.0" // 版本号
+        }
+    }
+}

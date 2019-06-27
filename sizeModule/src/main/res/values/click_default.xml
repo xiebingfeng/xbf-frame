@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--白色点下去时的颜色-->
+    <color name="base_white_view_pressed_color">#66ebebeb</color>
+
+    <color name="base_transparent_view_pressed_bg">#ebebeb</color>
+
+    <color name="base_disable_view_bg">#f4f4f4</color>
+
+</resources>

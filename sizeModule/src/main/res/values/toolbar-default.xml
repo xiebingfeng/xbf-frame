@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_toolbar_left_button_font_color">#333333</color>
+
+    <color name="base_toolbar_right_button_font_color">#333333</color>
+
+    <color name="base_toolbar_title_font_color">#333333</color>
+
+    <color name="base_toolbar_background">@color/base_white</color>
+
+    <color name="base_toolbar_line_color">#f4f4f4</color>
+
+    <!--dimen-->
+
+    <dimen name="base_toolbar_height">@dimen/base_44</dimen>
+
+    <dimen name="base_toolbar_button_font_size">@dimen/font_size_13</dimen>
+
+    <dimen name="base_toolbar_title_font_size">@dimen/font_size_17</dimen>
+
+    <dimen name="base_toolbar_button_lr_padding">@dimen/base_15</dimen>
+
+    <dimen name="base_toolbar_image_button_padding">@dimen/base_4</dimen>
+
+    <dimen name="base_toolbar_title_view_max_width">@dimen/base_187</dimen>
+
+
+</resources>

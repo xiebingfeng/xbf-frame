@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/base_lce_warn_image_view_width"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/frame_default_pic_no_data" />
+
+    <TextView
+        android:id="@+id/warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_lce_warn_tv_image_space"
+        android:text="@string/frame_lce_empty_view"
+        android:textColor="@color/base_lce_color_warn"
+        android:textSize="@dimen/base_lce_tv_font_size" />
+
+</LinearLayout>

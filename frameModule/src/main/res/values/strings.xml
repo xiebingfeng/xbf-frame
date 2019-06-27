@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="base_contentDescription">""</string>
+
+    <!--权限相关-->
+    <string name="frame_system_warn">系统提示</string>
+    <string name="frame_authorized_failed">授权失败，请通过后台应用设置重新授权!</string>
+
+    <!--下拉刷新RecyclerView-->
+    <string name="frame_listview_header_hint_normal">下拉刷新</string>
+    <string name="frame_listview_header_hint_release">松开刷新</string>
+    <string name="frame_refreshing">正在加载</string>
+    <string name="frame_refresh_done">加载完成</string>
+
+    <!--网络相关-->
+    <string name="frame_network_is_time_out">网络超时，请稍后再试</string>
+    <string name="frame_network_error">网络不给力，点击屏幕重试</string>
+    <string name="frame_network_not_giving_force">网络不给力</string>
+    <string name="frame_network_is_not_usable">网络不可用，请检查网络设置</string>
+    <string name="frame_server_data_is_abnormal">服务器数据异常，正在修复中!</string>
+    <string name="frame_network_no_net">无网络</string>
+    <string name="frame_network_unknown_mistake">未知错误！</string>
+    <string name="frame_network_load_error">网络加载异常!</string>
+    <string name="frame_lce_empty_view">没找到你要的内容</string>
+    <string name="frame_base_reload">重新加载</string>
+
+    <string name="frame_base_warn">提示</string>
+    <string name="frame_base_sure">确定</string>
+    <string name="frame_base_cancel">取消</string>
+
+</resources>
