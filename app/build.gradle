@@ -33,4 +33,5 @@ dependencies {
 
     implementation project(':frameModule')
     implementation project(':networkModule')
+    implementation project(':sizeModule')
 }
