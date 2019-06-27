@@ -44,9 +44,9 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.2.38'
     implementation 'com.alibaba:fastjson:1.1.71.android'
 
-//    if (rootProject.localDebug) {
-//        implementation project(':xbfframe:frameModule')
-//    } else {
+    if (rootProject.localDebug) {
+        implementation project(':xbfframe:frameModule')
+    } else {
         implementation project(':frameModule')
-//    }
+    }
 }
