@@ -49,11 +49,11 @@ dependencies {
     androidTestImplementation "com.android.support.test:runner:$rootProject.runnerVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion"
 
-    if (rootProject.localDebug) {
-        api project(':xbfframe:sizeModule')
-    } else {
-        api project(':sizeModule')
-    }
+//    if (rootProject.localDebug) {
+//        api project(':xbfframe:sizeModule')
+//    } else {
+    api project(':sizeModule')
+//    }
 
 
     //google
